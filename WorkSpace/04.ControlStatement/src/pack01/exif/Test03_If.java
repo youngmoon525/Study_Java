@@ -14,9 +14,7 @@ public class Test03_If {
 		} else {
 			System.out.println("AB형 또는 잘못된 입력");
 		}
-		if (true) {
-
-		}
+	
 		// 내가 알고있는 대부분의 지역은 중첩이 가능하다.
 		// ctrl + a : 전체 코드 마킹
 		// ctrl + shift + f : 코드 줄 정리
