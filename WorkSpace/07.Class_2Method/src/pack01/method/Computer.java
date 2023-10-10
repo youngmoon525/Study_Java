@@ -12,6 +12,5 @@ public class Computer {
 		}else {
 			System.out.println("전원을 켜주세요@!!");
 		}
-		
 	}
 }
