@@ -9,5 +9,7 @@ public class CalculatorMain {
 		System.out.println(cal.mul(1, 2));
 		System.out.println(cal.div(5, 2));
 		
+		
+		
 	}
 }
