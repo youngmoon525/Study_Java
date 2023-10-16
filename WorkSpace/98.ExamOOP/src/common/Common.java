@@ -56,7 +56,8 @@ public class Common {
 			}
 		}
 	}
-	
+	//ctrl + alt + h
+	//ctrl + click
 	public int getIntScanner(int checkValue) {
 		while(true) {
 			int value = getIntSanner();

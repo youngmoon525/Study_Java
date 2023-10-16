@@ -8,6 +8,7 @@ public class MemberDAO {
 	ProductDAO dao;
 	public MemberDAO(Common common) {
 		this.common = common;
+		System.out.println("참조 번지 : " + this.common);
 	}
 	
 	//메소드()<-파라메터부:데이터를 받아오기 위한 변수 선언만 가능

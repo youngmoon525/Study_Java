@@ -6,6 +6,7 @@ public class ProductDAO {
 	Common common;
 	public ProductDAO(Common common) {
 		this.common = common;
+		System.out.println("참조 번지 : " + this.common);
 	}
 	
 	public void addItem() {
