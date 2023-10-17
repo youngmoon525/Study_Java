@@ -10,6 +10,7 @@ public class Common {
 	public MemberDTO loginInfo;//로그인 성공 시 배열(DAO)에 있는 정보 중 하나의 데이터를 저장해둠.
 	public ProductDTO[] items;//최초 main메소드에서 상품을 초기화 해두고 올림.
 	
+
 	//1.숫자형태를 입력받아야할때.
 	//	1.1 +메세지
 	//  1.2 값체크
