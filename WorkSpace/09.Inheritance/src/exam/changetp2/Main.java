@@ -8,6 +8,7 @@ public class Main {
 		child.method2();
 		child.method3();
 		System.out.println("----");
+		
 		Prent parent = child;
 		parent.method1();
 		parent.method2();
