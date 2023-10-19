@@ -17,14 +17,14 @@ public class PhoneCommonDAO {
 		this.dto = dto;
 		if (dto instanceof SmartPhoneDTO) {
 			System.out.print("3세대 폰 생성");
-			menuCount = 3;
+			menuCount = 7;
 
 		} else if (dto instanceof DmbPhoneDTO) {
 			System.out.print("2세대 폰 생성");
 			menuCount = 5;
 		} else if (dto instanceof PhoneDTO) {
 			System.out.print("1세대 폰 생성");
-			menuCount = 7;
+			menuCount = 3;
 		}
 		System.out.println("색상 : " + dto.getColor() + " 모델 : " + dto.getModel());
 
@@ -78,7 +78,7 @@ public class PhoneCommonDAO {
 
 	public void displayMenu() {
 		for (int i = 0; i < menuCount; i++) {
-			System.out.print(i + 1 + "." + menus[i]);
+			System.out.print(i + 1 + ". " + menus[i] + " ");
 		}
 	}
 
@@ -92,7 +92,7 @@ public class PhoneCommonDAO {
 
 	public void changeVoice(boolean user) {
 		if (dto.isCall()) {
-			System.out.println(user ? "나" : "상대방" + sc.nextLine());
+			System.out.println(user ? "나" : "상대방" + " : "  + sc.nextLine());
 		} else {
 			System.out.println("통화중아님");
 		}
