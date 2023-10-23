@@ -1,5 +1,5 @@
 package exam.testabstract;
-//접근제한자 abstract 클래스 
+//접근제한자 "abstract" 클래스 
 public abstract class Animal {
 	//변수.
 	public String kind; //종류
