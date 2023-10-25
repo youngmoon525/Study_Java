@@ -1,5 +1,7 @@
 package pack03.android;
 
+
+
 public class MainActivity extends AppCompatActivity{
 	@Override
 	protected void onCreate() {
@@ -15,7 +17,17 @@ public class MainActivity extends AppCompatActivity{
 			}
 		};
 		
-		btn.setListner(onclickListner);
+		btn.setListner(new Button.OnClickListner() {
+			
+			@Override
+			public void onClick() {
+				
+			}
+		});
+		
+		btn.setListner(()->{
+			
+		});
 		
 	}
 	public static void main(String[] args) {
