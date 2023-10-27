@@ -14,6 +14,9 @@ public class HorseDTO {
 	}
 
 	public void setMove(int move) {
+		if(move > 100) {
+			move = 100;
+		}
 		this.move = move;
 	}
 
