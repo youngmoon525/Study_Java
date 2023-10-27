@@ -8,7 +8,6 @@ public class Ex04_ThreadTask extends Thread{
 		this.taskName = taskName;
 	}
 
-
 	@Override
 	public void run() {
 		for(int i =0 ; i<10; i++) {
