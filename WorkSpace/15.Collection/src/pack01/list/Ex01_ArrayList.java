@@ -25,6 +25,7 @@ public class Ex01_ArrayList {
 			//[A][B][C][D][E][null]
 		}
 		tempArr[tempArr.length-1] = "F";
+		arr = tempArr;
 		System.out.println(Arrays.toString(tempArr));
 		//배열은 사이즈를 미리 지정 후 변경이 불가능 -> 데이터 추가&삭제 시 불편한점이 많음.
 		//List <- Interface
