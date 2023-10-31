@@ -1,11 +1,16 @@
 package test01.board;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class BoardDAO {
 	// 쓰기 , 삭제 , 검색 , :전체 목록
 
+	
 	public void select(ArrayList<BoardDTO> list) {
+		
+		
+		
 		if (list.isEmpty()) {
 			System.out.println("게시글 없음");
 			return;
