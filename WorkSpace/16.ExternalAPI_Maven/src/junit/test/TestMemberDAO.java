@@ -47,7 +47,7 @@ class TestMemberDAO {
 		//dao.insertMember("us1" , "aa"); => dto 받아오게 수정
 	}
 	//@Disabled <= 테스트 안함.
-	//@Disabled
+	@Disabled
 	@DisplayName("회원 정보 수정")
 	@Test
 	void updateMember() {
@@ -58,5 +58,22 @@ class TestMemberDAO {
 	}
 	
 	
-
+	@Disabled
+	@DisplayName("회원 정보 삭제")
+	@Test
+	void deleteMember() {
+		MemberDAO dao = new MemberDAO();
+		MemberDTO dto = new MemberDTO("us1", "aa");
+		dao.deleteMember(dto);
+		//dao.updateMember("id1", "edit"); => dto 받아오게 수정
+	}
+	
+	@DisplayName("회원 정보 확인")
+	@Test
+	void checkMember() {
+		MemberDAO dao = new MemberDAO();
+		assertTrue( dao.isMember("id1") );
+		//dao.updateMember("id1", "edit"); => dto 받아오게 수정
+	}
+	
 }
