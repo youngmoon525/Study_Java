@@ -29,5 +29,21 @@
 			<artifactId>commons-email</artifactId>
 			<version>1.5</version>
 		</dependency>
+
+		<!-- 2023//11/03 KYM 추가 : Http에 Get 또는 Post로 데이터 요청을 위한 것 -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.13</version>
+		</dependency>
+
+		<!-- Json<->String 변환용. -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.9</version>
+		</dependency>
+
+
 	</dependencies>
 </project>
