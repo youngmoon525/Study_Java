@@ -23,6 +23,11 @@
 			<version>21.8.0.0</version>
 		</dependency>
 
-
+		<!-- 2023/11/03 KYM 추가 : 이메일 전송을 위한 라이브러리 ( SMTP서버 사용함. 네이버 메일 설정함 ) -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.5</version>
+		</dependency>
 	</dependencies>
 </project>
