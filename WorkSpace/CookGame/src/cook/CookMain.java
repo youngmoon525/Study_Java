@@ -17,6 +17,6 @@ public class CookMain {
 		ArrayList<RecipeInfoDTO> recipeList = dao.getRecipeList(randomDto);
 		
 		dao.displayRecipeList(recipeList);
-	
+		
 	}
 }
